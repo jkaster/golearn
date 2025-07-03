@@ -2,6 +2,8 @@
 
 This is a project to learn the Go programming language.
 
+This project was entirely created by prompts in Gemini CLI.
+
 ## TODO
 
 - [x] Variables
