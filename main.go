@@ -22,4 +22,6 @@ func main() {
 
 	fmt.Println("\n--- Binary Tree Example ---")
 	binaryTreeExample()
+
+	goroutines()
 }
