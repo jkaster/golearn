@@ -1,7 +1,7 @@
-package main
+package customtypes
 
 import "testing"
 
 func TestCustomTypes(t *testing.T) {
-	customTypes()
+	CustomTypes()
 }

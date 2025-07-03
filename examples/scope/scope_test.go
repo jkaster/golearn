@@ -1,7 +1,7 @@
-package main
+package scope
 
 import "testing"
 
 func TestScope(t *testing.T) {
-	scope()
+	Scope()
 }

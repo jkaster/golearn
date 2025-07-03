@@ -1,4 +1,4 @@
-package main
+package variables
 
 import (
 	"fmt"
@@ -6,7 +6,7 @@ import (
 )
 
 // variables demonstrates various ways to declare and initialize variables and constants in Go.
-func variables() {
+func Variables() {
 	// Declare a variable of type string with the name 'a' and assign it the value "initial"
 	var a = "initial"
 	fmt.Println(a)

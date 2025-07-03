@@ -1,4 +1,4 @@
-package main
+package goroutines
 
 import "testing"
 
@@ -7,5 +7,5 @@ func TestGoroutines(t *testing.T) {
 	// Testing concurrent code can be complex and often involves
 	// more sophisticated techniques like using channels for synchronization
 	// and verifying specific output patterns.
-	goroutines()
+	Goroutines()
 }

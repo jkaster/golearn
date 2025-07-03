@@ -1,6 +1,17 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+
+	"golang/examples/binarytree"
+	"golang/examples/collections"
+	"golang/examples/customtypes"
+	"golang/examples/datatypes"
+	"golang/examples/goroutines"
+	"golang/examples/interfaces"
+	"golang/examples/scope"
+	"golang/examples/variables"
+)
 
 // main is the entry point of the Go learning project.
 // It calls various example functions to demonstrate Go concepts.
@@ -8,25 +19,26 @@ func main() {
 	fmt.Println("Hello, World!")
 
 	fmt.Println("\n--- Variables Example ---")
-	variables()
+	variables.Variables()
 
 	fmt.Println("\n--- Scope Example ---")
-	scope()
+	scope.Scope()
 
 	fmt.Println("\n--- Data Types Example ---")
-	dataTypes()
+	datatypes.DataTypes()
 
 	fmt.Println("\n--- Custom Types Example ---")
-	customTypes()
+	customtypes.CustomTypes()
 
 	fmt.Println("\n--- Interfaces Example ---")
-	interfaces()
+	interfaces.Interfaces()
 
 	fmt.Println("\n--- Binary Tree Example ---")
-	binaryTreeExample()
+	binarytree.BinaryTreeExample()
 
-	goroutines()
+	fmt.Println("\n--- Goroutines Example ---")
+	goroutines.Goroutines()
 
 	fmt.Println("\n--- Collections Example ---")
-	collections()
+	collections.Collections()
 }

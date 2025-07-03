@@ -1,7 +1,7 @@
-package main
+package datatypes
 
 import "testing"
 
 func TestDataTypes(t *testing.T) {
-	dataTypes()
+	DataTypes()
 }

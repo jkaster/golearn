@@ -1,4 +1,4 @@
-package main
+package goroutines
 
 import (
 	"fmt"
@@ -13,9 +13,8 @@ func say(s string) {
 	}
 }
 
-// goroutines demonstrates the use of goroutines for concurrent execution and basic channel communication.
-func goroutines() {
-	fmt.Println("\n--- Goroutines Example ---")
+// Goroutines demonstrates the use of goroutines for concurrent execution and basic channel communication.
+func Goroutines() {
 	go say("world") // Run say("world") in a new goroutine
 	say("hello")    // Run say("hello") in the main goroutine
 

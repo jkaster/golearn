@@ -1,12 +1,12 @@
-package main
+package scope
 
 import "fmt"
 
 // globalVar is a global variable, accessible to any function in the package.
 var globalVar = "I'm a global variable"
 
-// scope demonstrates variable scoping rules in Go: global, local, and block-level.
-func scope() {
+// Scope demonstrates variable scoping rules in Go: global, local, and block-level.
+func Scope() {
 	// localVar is a local variable, accessible only within the scope function.
 	var localVar = "I'm a local variable"
 

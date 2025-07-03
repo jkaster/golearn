@@ -1,4 +1,4 @@
-package main
+package binarytree
 
 import (
 	"fmt"
@@ -92,9 +92,9 @@ func (bt *BinaryTree[T]) BFS() []T {
 	return result
 }
 
-// binaryTreeExample demonstrates the usage of the generic BinaryTree with integer and string types.
+// BinaryTreeExample demonstrates the usage of the generic BinaryTree with integer and string types.
 // It shows insertion, DFS (Depth-First Search), and BFS (Breadth-First Search) traversals.
-func binaryTreeExample() {
+func BinaryTreeExample() {
 	fmt.Println("\n--- Binary Tree Example (int) ---")
 	intTree := &BinaryTree[int]{}
 	values := []int{50, 30, 70, 20, 40, 60, 80}

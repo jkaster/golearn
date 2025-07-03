@@ -1,4 +1,4 @@
-package main
+package collections
 
 import "fmt"
 
@@ -176,8 +176,8 @@ func demonstrateQueue() {
 	fmt.Printf("Dequeued from empty: %v, success: %v\n", val, ok)
 }
 
-// collections demonstrates various collection types: maps (hash tables/dictionaries), and custom implementations of stacks and queues.
-func collections() {
+// Collections demonstrates various collection types: maps (hash tables/dictionaries), and custom implementations of stacks and queues.
+func Collections() {
 	demonstrateMaps()
 	demonstrateStack()
 	demonstrateQueue()

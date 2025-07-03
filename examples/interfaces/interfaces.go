@@ -1,4 +1,4 @@
-package main
+package interfaces
 
 import "fmt"
 
@@ -30,8 +30,8 @@ func SaySomething(s Speaker) {
 	fmt.Println(s.Speak())
 }
 
-// interfaces demonstrates how to define and use interfaces in Go, including polymorphism and the empty interface.
-func interfaces() {
+// Interfaces demonstrates how to define and use interfaces in Go, including polymorphism and the empty interface.
+func Interfaces() {
 	// Create instances of Dog and Cat.
 	dog := Dog{Name: "Buddy"}
 	cat := Cat{Name: "Whiskers"}
