@@ -10,4 +10,7 @@ func main() {
 
 	fmt.Println("\n--- Scope Example ---")
 	scope()
+
+	fmt.Println("\n--- Data Types Example ---")
+	dataTypes()
 }
