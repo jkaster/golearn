@@ -5,5 +5,5 @@ This is a project to learn the Go programming language.
 ## TODO
 
 - [x] Variables
-- [ ] Data Types
+- [x] Data Types
 - [ ] Functions
