@@ -5,6 +5,7 @@ import (
 	"math"
 )
 
+// variables demonstrates various ways to declare and initialize variables and constants in Go.
 func variables() {
 	// Declare a variable of type string with the name 'a' and assign it the value "initial"
 	var a = "initial"

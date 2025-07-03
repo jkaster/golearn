@@ -30,6 +30,7 @@ func SaySomething(s Speaker) {
 	fmt.Println(s.Speak())
 }
 
+// interfaces demonstrates how to define and use interfaces in Go, including polymorphism and the empty interface.
 func interfaces() {
 	// Create instances of Dog and Cat.
 	dog := Dog{Name: "Buddy"}

@@ -2,6 +2,8 @@ package main
 
 import "fmt"
 
+// main is the entry point of the Go learning project.
+// It calls various example functions to demonstrate Go concepts.
 func main() {
 	fmt.Println("Hello, World!")
 
@@ -24,4 +26,7 @@ func main() {
 	binaryTreeExample()
 
 	goroutines()
+
+	fmt.Println("\n--- Collections Example ---")
+	collections()
 }

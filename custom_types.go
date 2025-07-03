@@ -21,6 +21,7 @@ func (k Kilometer) Miles() float64 {
 	return float64(k) * 0.621371
 }
 
+// customTypes demonstrates how to define and use custom data types in Go, including structs and type declarations.
 func customTypes() {
 	// Create an instance of the Person struct.
 	p := Person{Name: "Alice", Age: 30}

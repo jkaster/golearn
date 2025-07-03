@@ -5,6 +5,7 @@ import (
 	"time"
 )
 
+// say prints the given string multiple times with a delay.
 func say(s string) {
 	for i := 0; i < 3; i++ {
 		time.Sleep(100 * time.Millisecond)
@@ -12,6 +13,7 @@ func say(s string) {
 	}
 }
 
+// goroutines demonstrates the use of goroutines for concurrent execution and basic channel communication.
 func goroutines() {
 	fmt.Println("\n--- Goroutines Example ---")
 	go say("world") // Run say("world") in a new goroutine

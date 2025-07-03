@@ -6,4 +6,4 @@ This is a project to learn the Go programming language.
 
 - [x] Variables
 - [x] Data Types
-- [ ] Functions
+- [x] Functions
