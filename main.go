@@ -3,14 +3,14 @@ package main
 import (
 	"fmt"
 
-	"golang/examples/binarytree"
-	"golang/examples/collections"
-	"golang/examples/customtypes"
-	"golang/examples/datatypes"
-	"golang/examples/goroutines"
-	"golang/examples/interfaces"
-	"golang/examples/scope"
-	"golang/examples/variables"
+	"golearn/examples/binarytree"
+	"golearn/examples/collections"
+	"golearn/examples/customtypes"
+	"golearn/examples/datatypes"
+	"golearn/examples/goroutines"
+	"golearn/examples/interfaces"
+	"golearn/examples/scope"
+	"golearn/examples/variables"
 )
 
 // main is the entry point of the Go learning project.

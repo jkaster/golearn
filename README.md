@@ -1,4 +1,4 @@
-# Go Learning Project
+# Go learn!
 
 This is a project to learn the Go programming language.
 
