@@ -4,6 +4,6 @@ This is a project to learn the Go programming language.
 
 ## TODO
 
-- [ ] Variables
+- [x] Variables
 - [ ] Data Types
 - [ ] Functions
