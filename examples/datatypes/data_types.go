@@ -5,6 +5,7 @@ import "fmt"
 // DataTypes demonstrates various built-in data types in Go, including booleans, integers, floats, and strings.
 // It also shows zero values and type inference.
 func DataTypes() {
+	fmt.Println("\n--- Data Types Example ---")
 	// Boolean type
 	var b bool = true
 	fmt.Printf("Boolean: %v (type: %T)\n", b, b)

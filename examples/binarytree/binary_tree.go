@@ -95,6 +95,7 @@ func (bt *BinaryTree[T]) BFS() []T {
 // BinaryTreeExample demonstrates the usage of the generic BinaryTree with integer and string types.
 // It shows insertion, DFS (Depth-First Search), and BFS (Breadth-First Search) traversals.
 func BinaryTreeExample() {
+	fmt.Println("\n--- Binary Tree Example ---")
 	fmt.Println("\n--- Binary Tree Example (int) ---")
 	intTree := &BinaryTree[int]{}
 	values := []int{50, 30, 70, 20, 40, 60, 80}

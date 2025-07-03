@@ -11,6 +11,7 @@ import (
 	"golearn/examples/interfaces"
 	"golearn/examples/scope"
 	"golearn/examples/variables"
+	"golearn/examples/functions"
 )
 
 // main is the entry point of the Go learning project.
@@ -18,27 +19,21 @@ import (
 func main() {
 	fmt.Println("Hello, World!")
 
-	fmt.Println("\n--- Variables Example ---")
 	variables.Variables()
 
-	fmt.Println("\n--- Scope Example ---")
 	scope.Scope()
 
-	fmt.Println("\n--- Data Types Example ---")
 	datatypes.DataTypes()
 
-	fmt.Println("\n--- Custom Types Example ---")
 	customtypes.CustomTypes()
 
-	fmt.Println("\n--- Interfaces Example ---")
 	interfaces.Interfaces()
 
-	fmt.Println("\n--- Binary Tree Example ---")
 	binarytree.BinaryTreeExample()
 
-	fmt.Println("\n--- Goroutines Example ---")
 	goroutines.Goroutines()
 
-	fmt.Println("\n--- Collections Example ---")
 	collections.Collections()
+
+	functions.Functions()
 }

@@ -178,6 +178,7 @@ func demonstrateQueue() {
 
 // Collections demonstrates various collection types: maps (hash tables/dictionaries), and custom implementations of stacks and queues.
 func Collections() {
+	fmt.Println("\n--- Collections Example ---")
 	demonstrateMaps()
 	demonstrateStack()
 	demonstrateQueue()

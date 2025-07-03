@@ -15,6 +15,7 @@ func say(s string) {
 
 // Goroutines demonstrates the use of goroutines for concurrent execution and basic channel communication.
 func Goroutines() {
+	fmt.Println("\n--- Goroutines Example ---")
 	go say("world") // Run say("world") in a new goroutine
 	say("hello")    // Run say("hello") in the main goroutine
 

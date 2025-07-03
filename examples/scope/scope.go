@@ -7,6 +7,7 @@ var globalVar = "I'm a global variable"
 
 // Scope demonstrates variable scoping rules in Go: global, local, and block-level.
 func Scope() {
+	fmt.Println("\n--- Scope Example ---")
 	// localVar is a local variable, accessible only within the scope function.
 	var localVar = "I'm a local variable"
 

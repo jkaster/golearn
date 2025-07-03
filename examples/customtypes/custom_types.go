@@ -23,6 +23,7 @@ func (k Kilometer) Miles() float64 {
 
 // CustomTypes demonstrates how to define and use custom data types in Go, including structs and type declarations.
 func CustomTypes() {
+	fmt.Println("\n--- Custom Types Example ---")
 	// Create an instance of the Person struct.
 	p := Person{Name: "Alice", Age: 30}
 	fmt.Printf("Person: %+v\n", p)
