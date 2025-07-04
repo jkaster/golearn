@@ -21,3 +21,4 @@ All notable changes to this project will be documented in this file.
 - Remove duplicate "--- Functions Example ---" heading from functions.go
 - Move all example section headings from main.go to their respective example functions
 - Remove exclamation mark from README.md heading
+- Refactor: Update goroutines example to use `sync.WaitGroup` instead of `time.Sleep` for synchronization
